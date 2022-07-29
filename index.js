@@ -1,6 +1,7 @@
 import server from './src/app.js'
+import 'dotenv/config.js'
 
-const PORT = 3001
+const PORT = process.env.PORT || 3001
 
 // Start the server
 
